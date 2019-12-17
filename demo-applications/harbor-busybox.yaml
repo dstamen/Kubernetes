@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: busybox
+  namespace: demo-app-01
+spec:
+  containers:
+  - name: busybox
+    image: 10.174.4.35/demo-app-01/busybox:latest
+    command:
+      - sleep
+      - "3600"
+    imagePullPolicy: IfNotPresent
+  restartPolicy: Always
