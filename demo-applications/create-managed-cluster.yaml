@@ -14,7 +14,7 @@ spec:
       class: guaranteed-xsmall # vmclass to be used for workers(s)
       storageClass: project-pacific-storage
   distribution:
-    version: v1.15.5+vmware.1.66-guest.1.26
+    version: v1.15.5+vmware.1.66-guest.1.37
   settings:
     network:
       cni:
