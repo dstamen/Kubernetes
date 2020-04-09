@@ -10,8 +10,8 @@ spec:
     controlPlane:
       count: 1 #number of master nodes
       class: guaranteed-small #vmclass for master nodes
-      storageClass: wcp-workload #storageclass for master nodes
+      storageClass: vk8s-storage #storageclass for master nodes
     workers:
       count: 3 #number of worker nodes
       class: guaranteed-small #vmclass for worker nodes
-      storageClass: wcp-workload #storageclass for worker nodes
+      storageClass: vk8s-storage #storageclass for worker nodes
