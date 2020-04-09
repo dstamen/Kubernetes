@@ -5,7 +5,7 @@ metadata:
   namespace: vk8s-ns-01 #supervisor namespace
 spec:
   distribution:
-    version: v1.16.8 #resolved kubernetes version
+    version: v1.16 #resolved kubernetes version
   topology:
     controlPlane:
       count: 1 #number of master nodes
