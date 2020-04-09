@@ -1,8 +1,8 @@
 apiVersion: run.tanzu.vmware.com/v1alpha1 #tkg api endpoint
 kind: TanzuKubernetesCluster #required parameter
 metadata:
-  name: ds-tkc-1 #cluster name, user defined
-  namespace: ds-ns-1 #supervisor namespace
+  name: vk8s-tkc-01 #cluster name, user defined
+  namespace: vk8s-ns-01 #supervisor namespace
 spec:
   distribution:
     version: v1.15 #resolved kubernetes version
