@@ -46,7 +46,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: ghost-content
 spec:
-  storageClassName: wcp-workload
+  storageClassName: vk8s-storage
   accessModes:
     - ReadWriteOnce
   resources:
