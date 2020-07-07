@@ -19,7 +19,7 @@ metadata:
   labels:
     app: wordpress
 spec:
-  storageClassName: project-pacific-storage
+  storageClassName: vk8s-storage
   accessModes:
     - ReadWriteOnce
   resources:
